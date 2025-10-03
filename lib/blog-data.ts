@@ -27,3 +27,8 @@ export function getBitSlugs() {
   // En producción (export), siempre usa lista estática para GitHub Pages
   return bitSlugs
 }
+
+export const bitSlugs = [
+  'nueva-web',
+  'semanahd2025_cfp', // ← Nuevo slug
+]
